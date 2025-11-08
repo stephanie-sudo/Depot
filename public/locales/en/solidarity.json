@@ -1,0 +1,67 @@
+{
+  "hero": {
+    "line1": "Solidarity",
+    "line2": "Energy Balancing for Every Budget",
+    "line3": "",
+    "sub": "Each supporter session funds a discounted appointment for people with lower income."
+  },
+  "flow": {
+    "inTitle": "How the pot fills up",
+    "step1": {
+      "title": "Monthly donation",
+      "desc": "I add 1 credit per month to the pot"
+    },
+    "step2": {
+      "title": "Supporter booking",
+      "desc": "Every supporter package creates +1 credit"
+    },
+    "step3": {
+      "title": "Solidarity pot",
+      "desc": "All credits collect here"
+    },
+    "step4": {
+      "title": "Book slot",
+      "desc": "Eligible clients use 1 credit to book at a reduced price"
+    }
+  },
+  "manifesto": {
+    "bullets": [
+      "Health is a basic right, not a luxury, and should never depend on your bank balance.",
+      "As a supporter, every session you book gives someone else access to care. Thank you for your commitment!",
+      "Let's create a solidarity space for everyone together!"
+    ]
+  },
+  "stats": {
+    "available": "Available solidarity slots",
+    "year": "Solidarity sessions booked this year",
+    "total": "Total solidarity sessions booked"
+  },
+  "faq": {
+    "q1": "Who qualifies for a Solidarity session?",
+    "a1": "People with low income, students, job seekers \u2013 no proof required, just honest self\u2011assessment.",
+    "q2": "How do I request the reduced price?",
+    "a2": "Simply choose the \"Solidarity\" tier when booking.",
+    "q3": "Can I book the Solidarity tier more than once?",
+    "a3": "Yes, you can book as often as credits are available. Please be fair and consider others who need the discounted price.",
+    "q4": "What happens when credits run out?",
+    "a4": {
+      "part1": "Soon you'll be able to join a waitlist that notifies you when credits are available again. Until then, you can still book at the regular price. If that's not financially possible for you, please",
+      "link": "contact me directly",
+      "part2": "and we'll find a solution!"
+    },
+    "q5": "Can I book private or group yoga sessions at a discount using solidarity credits?",
+    "a5": {
+      "part1": "No, that's not possible right now. If you'd like a special offer for this, please",
+      "link": "contact me directly",
+      "part2": "."
+    }
+  },
+  "cta": {
+    "supporter": "Book supporter \u203a",
+    "solidarity": "Request Solidarity \u203a"
+  },
+  "footer": {
+    "metaTitle": "Solidarity Credits \u2013 Energy Balancing for Every Budget",
+    "metaDesc": "Learn how supporter sessions fund discounted appointments for people with lower income."
+  }
+}

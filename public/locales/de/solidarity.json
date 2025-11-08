@@ -1,0 +1,67 @@
+{
+  "hero": {
+    "line1": "Solidarität",
+    "line2": "damit sich jede*r",
+    "line3": "Energiearbeit leisten kann",
+    "sub": "Mit jeder Supporter-Sitzung finanzierst du einen vergünstigten Termin für Menschen mit geringerem Einkommen."
+  },
+  "flow": {
+    "inTitle": "So füllt sich der Topf",
+    "step1": {
+      "title": "Monatliche Spende",
+      "desc": "Ich lege 1 Credit pro Monat in den Topf"
+    },
+    "step2": {
+      "title": "Supporter buchen",
+      "desc": "Für jedes gebuchte Paket wird +1 Credit erstellt"
+    },
+    "step3": {
+      "title": "Solidaritätstopf",
+      "desc": "Hier sammeln sich alle Credits"
+    },
+    "step4": {
+      "title": "Slot buchen",
+      "desc": "Klient*innen mit geringerem Einkommen nutzen 1 Credit für einen Termin zum vergünstigten Preis"
+    }
+  },
+  "manifesto": {
+    "bullets": [
+      "Gesundheit ist ein Grundrecht, kein Luxus, und darf keine Frage des Kontostandes sein.",
+      "Als Supporter schenkst du mit jeder Session jemand anderem Zugang zu Gesundheit. Danke für dein Engagement!",
+      "Lass uns gemeinsam einen solidarischen Raum für alle schaffen!"
+    ]
+  },
+  "stats": {
+    "available": "Verfügbare Solidaritätsslots",
+    "year": "Gebuchte Solidaritätssessions dieses Jahr",
+    "total": "Gebuchte Solidaritätssessions insgesamt"
+  },
+  "faq": {
+    "q1": "Wer qualifiziert sich für einen Solidaritätstermin?",
+    "a1": "Personen mit geringem Einkommen, Studierende, Arbeitssuchende – ohne Nachweis genügt ehrliche Selbsteinschätzung.",
+    "q2": "Wie beantrage ich den reduzierten Preis?",
+    "a2": "Wähle beim Buchen einfach die Preisstufe \"Solidarpreis\".",
+    "q3": "Kann ich mehr als einmal den Solidaritätstarif buchen?",
+    "a3": "Ja, du kannst so oft buchen, wie Credits verfügbar sind. Sei aber bitte fair und denke auch an andere Menschen, die den vergünstigten Preis benötigen.",
+    "q4": "Was passiert, wenn Credits aufgebraucht sind?",
+    "a4": {
+      "part1": "Demnächst kannst du dich auf eine Warteliste eintragen, die dich darüber informiert, wenn wieder Credits frei werden. Bis dahin kannst du natürlich weiterhin den Normalpreis buchen. Sollte das für dich finanziell nicht möglich sein, kontaktiere",
+      "link": "mich bitte direkt",
+      "part2": "und wir finden eine Lösung!"
+    },
+    "q5": "Kann ich auch Yoga-Privatstunden oder Gruppenstunden mit Solidaritätscredits vergünstigt buchen?",
+    "a5": {
+      "part1": "Nein, derzeit ist dies leider nicht möglich. Wenn du ein spezielles Angebot hierfür haben möchtest, kontaktiere",
+      "link": "mich bitte direkt",
+      "part2": "."
+      }
+  },
+  "cta": {
+    "supporter": "Supporter buchen ›",
+    "solidarity": "Solidarpreis anfragen ›"
+  },
+  "footer": {
+    "metaTitle": "Solidaritäts-Credits – Energiearbeit für jedes Budget",
+    "metaDesc": "Erfahre, wie Supporter-Sessions vergünstigte Plätze für Menschen mit geringerem Einkommen ermöglichen."
+  }
+}

@@ -1,0 +1,48 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dev
+    ports:
+      - "3003:3000"
+    restart: unless-stopped
+    env_file:
+      - /home/florian/envs/moving_relaxation.dev.env
+    environment:
+      MYSQL_HOST: db
+      MYSQL_PORT: 3306
+      MYSQL_USER: root
+      MYSQL_PASSWORD: example
+      MYSQL_DATABASE: moving_relaxation
+      DATABASE_URL: mysql://root:example@db:3306/moving_relaxation
+    depends_on:
+      db:
+        condition: service_healthy
+    command: sh -c "(pnpm prisma migrate deploy || (pnpm prisma db push --skip-generate --accept-data-loss && pnpm prisma migrate resolve --applied 20240214120000_init --applied 20240219100000_add_legacy_tables)) && pnpm prisma db seed && pnpm run dev -H 0.0.0.0 -p 3000"
+    # optional, wenn du Quellcode mounten willst:
+    # volumes:
+    #   - .:/app
+    #   - node_modules:/app/node_modules
+    #   - next_cache:/app/.next
+
+  db:
+    build:
+      context: ./db
+    restart: unless-stopped
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      DUMMY_SOLIDARITY_CREDITS: ${DUMMY_SOLIDARITY_CREDITS:-0}
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      retries: 10
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:
+  # node_modules:
+  # next_cache:

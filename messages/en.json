@@ -1,0 +1,874 @@
+{
+  "hero": {
+    "tagline": "Unlock Your Body’s Inner Current",
+    "subline1": "Integrative Energy Medicine & Yoga in Kaiserslautern",
+    "subline2": "• In-Studio | Virtual | Home-Visit •",
+    "cta": "Book a Session",
+    "secondaryCta": "Free 15-min Discovery Call"
+  },
+  "nav": {
+    "home": "Home",
+    "sessions": "Sessions",
+    "yoga": "Yoga",
+    "energyWork": "Energy Work",
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "toggleTheme": "Toggle theme"
+  },
+  "login": {
+    "title": "Sign in to your account",
+    "email": "Email address",
+    "password": "Password",
+    "signIn": "Sign in",
+    "magicLink": "Send magic link",
+    "google": "Continue with Google",
+    "admin": "You are an admin",
+    "error": "Could not sign in",
+    "signupPrompt": "Don't have an account?",
+    "signupLink": "Sign up"
+  },
+  "signup": {
+    "title": "Create an account",
+    "email": "Email address",
+    "password": "Password",
+    "referral": "Referral Code",
+    "signUp": "Sign up",
+    "magicLink": "Send magic link",
+    "google": "Sign up with Google",
+    "loginPrompt": "Already have an account?",
+    "loginLink": "Login",
+    "errors": {
+      "missingFields": "Please fill in all fields",
+      "userExists": "User already exists",
+      "default": "Could not sign up"
+    }
+  },
+  "checkEmail": {
+    "title": "Check your email",
+    "message": "We sent you an email with a sign-in link."
+  },
+  "upcomingEvents": {
+    "title": "Upcoming Events",
+    "more": "More events...",
+    "online": "Online",
+    "inPerson": "On-site",
+    "categories": {
+      "yoga": "Yoga",
+      "energy": "Energy"
+    }
+  },
+  "about": {
+    "seoTitle": "About Me – Florian",
+    "seoDescription": "Learn more about Florian, yoga teacher and energy practitioner with certified training.",
+    "heroHeading": "About Me",
+    "heroIntro": "I'm Florian, a yoga teacher and energy practitioner based in Kaiserslautern. I guide people to balance through mindful movement and holistic techniques.",
+    "heroImageAlt": "Portrait of Florian",
+    "storyHeading": "My Story",
+    "storyImageAlt": "Florian practicing yoga outdoors",
+    "storyP1": "I first discovered yoga in my early twenties and quickly realized how much it grounded and energized me.",
+    "storyP2": "Since then I've trained with inspiring teachers across Europe and India, blending traditional wisdom with modern understanding.",
+    "storyP3": "Today I share this practice with curiosity and compassion, helping others connect to their bodies and breath.",
+    "storyP4": "I grew up in a highly scientific environment. As a PhD mathematician and professor of mathematics and artificial intelligence, I've always been drawn to techniques that are scientifically grounded and verified. Through yoga and Qi Gong/Tai Chi I came to energy and tuning fork work, and now I want to pass on the methods that demonstrably work to others for better self-esteem, body awareness, happiness, and health.",
+    "certsHeading": "My Training & Certificates",
+    "cert1Title": "200h Yoga Teacher Training – Yoga Alliance certified",
+    "cert1Desc": "2019",
+    "cert2Title": "Prenatal Yoga Continuing Education",
+    "cert2Desc": "2021",
+    "cert3Title": "Mindfulness and Meditation Workshop",
+    "cert3Desc": "2022",
+    "quote": "Yoga is the journey back to yourself – I am honored to guide you.",
+    "ctaHeading": "Ready for your first session?",
+    "ctaText": "I look forward to supporting you on your path.",
+    "ctaButton": "Book a session"
+  },
+  "contact": {
+    "title": "Contact",
+    "text": "Get in touch to schedule your session.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "send": "Send Message",
+      "preferPhone": "I'd like to be contacted by phone",
+      "copyEmail": "Copy email",
+      "emailCopied": "Email copied!",
+      "copyPhone": "Copy phone",
+      "phoneCopied": "Phone copied!",
+      "captcha": "Verification",
+      "captchaInstruction": "Slide the square to complete the image.",
+      "captchaRefresh": "Reload image",
+      "x": "X",
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "tiktok": "TikTok",
+      "linkedin": "LinkedIn"
+    },
+    "thankYou": {
+      "title": "Thank you",
+      "messagePhone": "Your message was sent. I'll contact you by phone as soon as possible.",
+      "messageMail": "Your message was sent. I'll contact you by email as soon as possible.",
+      "supporterMessage": "❤️ Thank you! You just unlocked +1 subsidised session(s) for our Solidarity pool.",
+      "messageTestimonial": "Thank you for your testimonial."
+    }
+  },
+  "testimonialsForm": {
+    "title": "Share your experience",
+    "firstName": "First name",
+    "firstNameHint": "Shown if not published anonymously",
+    "lastName": "Last name",
+    "lastNameHint": "Will be abbreviated, e.g., S.",
+    "avatar": "Avatar photo",
+    "avatarHint": "Optional: JPG or PNG, max 2 MB",
+    "avatarTypeError": "Only JPG or PNG images are allowed",
+    "avatarSizeError": "Image must be smaller than 2 MB",
+    "selectAvatar": "Choose avatar",
+    "rating": "Rating",
+    "ratingHint": "1 star = very bad, 5 stars = very good",
+    "ratingError": "Please select a rating",
+    "text": "Text",
+    "textHint": "Free text, will be published",
+    "submit": "Submit",
+    "star": "star",
+    "submitError": "Could not submit testimonial"
+  },
+  "testimonialsPage": {
+    "title": "Testimonials",
+    "filters": {
+      "name": "Search name...",
+      "rating": "Rating",
+      "sort": "Sort",
+      "sortNewest": "Newest",
+      "sortOldest": "Oldest"
+    },
+    "star": "star",
+    "loading": "Loading...",
+    "noData": "No testimonials found.",
+    "pagination": {
+      "prev": "Previous",
+      "next": "Next"
+    },
+    "submittedOn": "Submitted on"
+  },
+  "faq": {
+    "seoTitle": "FAQ – Moving Relaxation",
+    "seoDescription": "Frequently asked questions about our sessions and booking.",
+    "title": "Frequently Asked Questions",
+    "description": "Common questions about sessions and booking.",
+    "categories": {
+      "general": {
+        "title": "General",
+        "item1": {
+          "question": "How do I book an appointment?",
+          "answer": "Click the 'Book session' button to open my online calendar. There you choose date & time and the rate (Standard, Supporter or Solidarity) and pay securely via Stripe."
+        },
+        "item2": {
+          "question": "Can I book by phone?",
+          "answer": "Yes. Call me at … or send a WhatsApp. I manually add the appointment to the system and send you a confirmation email with an optional payment link."
+        },
+        "item3": {
+          "question": "Which payment methods do you accept?",
+          "answer": "Online: credit/debit card, instant transfer, Apple Pay. On site: debit card or cash."
+        },
+        "item4": {
+          "question": "What is your cancellation policy?",
+          "answer": "You can reschedule or cancel free of charge up to 24 h in advance. For later cancellations I charge 50% of the fee unless the slot can be filled."
+        },
+        "item5": {
+          "question": "Does your work replace a doctor's visit?",
+          "answer": "No. My offerings provide energetic harmonization and do not replace medical diagnosis or therapy. Please consult a doctor first for health issues."
+        },
+        "item6": {
+          "question": "Can I claim the cost of sessions with my health insurance?",
+          "answer": "That depends on your insurance provider. I operate on a self-pay basis, so most likely your health insurance will not reimburse the sessions."
+        },
+        "item7": {
+          "question": "I don't want to book through the online calendar and Stripe. What can I do?",
+          "answer": "Just contact me directly and we'll find an alternative."
+        },
+        "item8": {
+          "question": "Can I book an in-person session at your place or in a practice?",
+          "answer": {
+            "part1": "Unfortunately that's not possible right now. I'm still looking for a suitable space I can use as needed. If you rent such a room or know someone who does,",
+            "linkText": "feel free to contact me directly",
+            "part2": "."
+          }
+        },
+        "item9": {
+          "question": "We'd like to book multiple sessions at our place. How does that work?",
+          "answer": {
+            "part1": "If you'd like to book, for example, a yoga lesson followed by an energetic balancing session, or you and one or two friends or family members want several sessions of your choice at the same location,",
+            "linkText": "please contact me directly",
+            "part2": ". I'll send you a suitable booking link. Of course, you only pay travel once!"
+          }
+        }
+      },
+      "yoga": {
+        "title": "Yoga",
+        "item1": {
+          "question": "Which style of yoga do you teach?",
+          "answer": "A mix of Hatha, Yin, and therapeutic alignment yoga incorporating meridian knowledge by Donna Eden."
+        },
+        "item2": {
+          "question": "Do I need prior experience?",
+          "answer": "No. I adapt each class to your level and flexibility. Absolute beginners are welcome."
+        },
+        "item3": {
+          "question": "Do you offer online yoga?",
+          "answer": "Yes. Just choose the 'Virtual' option when booking. You'll receive a Zoom link and a checklist for camera setup."
+        },
+        "item4": {
+          "question": "Can I participate while pregnant?",
+          "answer": "From the 13th week with medical approval. Please note the pregnancy when booking so I can adapt the practice."
+        }
+      },
+      "energy": {
+        "title": "Energy Balance",
+        "item1": {
+          "question": "What happens during an energy balancing session?",
+          "answer": "After a short chat I work hands-off or with gentle touch along your meridians, chakras, and aura layers. We use meditations and visualizations, exercises from yoga and Qi Gong, and tuning fork frequencies to support your balancing process."
+        },
+        "item2": {
+          "question": "Which methods do you use exactly?",
+          "answer": "Elements from Donna Eden Energy Medicine, Cindy Dale's 'Subtle-Energy-Blueprints', Five-Element balancing, color therapy, and tuning forks in Solfeggio and planetary frequencies."
+        },
+        "item3": {
+          "question": "Will I feel anything during the session?",
+          "answer": "Many clients report warmth, tingling, or deep relaxation. Some briefly fall asleep – totally normal and welcome."
+        },
+        "item4": {
+          "question": "How many sessions do I need?",
+          "answer": "Single topics often resolve in 1–3 appointments. Chronic patterns benefit from 5-session packages or monthly support."
+        },
+        "item5": {
+          "question": "Are remote sessions effective?",
+          "answer": "Yes. Energy follows attention. Via Zoom I guide you through breathing and visualization cues while working in the energy field at the same time."
+        },
+        "item6": {
+          "question": "My dog is sick. Can I book a session for him?",
+          "answer": "Sessions are intended for humans, but I'm happy to recommend qualified animal therapists."
+        }
+      }
+    },
+    "more": {
+      "text": "Have more questions?",
+      "linkText": "Go to contact page"
+    }
+  },
+  "sessions": {
+    "title": "Sessions",
+    "description": "Explore personal yoga coaching and energetic balancing.",
+    "standardLabel": "Standard 60 min",
+    "book": "Book now",
+    "pricingTitle": "Simple, Transparent Pricing",
+    "singleTitle": "Single Session",
+    "balance5Title": "Balance-5 Package",
+    "supporter5Title": "Supporter 5",
+    "singleFeature1": "1 × 60 min session",
+    "singleFeature2": "Pay as you go",
+    "balance5Feature1": "5 × 60 min sessions",
+    "balance5Feature2": "Save €50 overall",
+    "group5Feature2": "Save €20 overall",
+    "supporterFeature1": "5 × 60 min sessions",
+    "supporterFeature2": "Unlocks 1 Solidarity slot",
+    "popularBadge": "Popular",
+    "tabYoga": "Yoga",
+    "tabEnergy": "Energy Balancing",
+    "yogaLessonTitle": "Private lesson",
+    "yogaLesson5Title": "Private lesson 5-pack",
+    "yogaGroupTitle": "Virtual group class",
+    "yogaGroup5Title": "Virtual group class 5-pack",
+    "standardTitle": "Standard",
+    "standard5Title": "Standard 5-pack",
+    "supporterTitle": "Supporter",
+    "solidarityTitle": "Solidarity",
+    "onlineGroupFeature": "Online group",
+    "reducedRateFeature": "Reduced rate",
+    "yogaLessonDesc": "One-on-one yoga session tailored to your goals.",
+    "yogaLesson5Desc": "Five private sessions to deepen your practice.",
+    "yogaGroupDesc": "Join an interactive online group lesson.",
+    "yogaGroup5Desc": "Five online group classes for continuous progress.",
+    "energyStandardDesc": "Standard energetic balancing session.",
+    "energyStandard5Desc": "Five energy sessions to maintain your harmony.",
+    "energySupporterDesc": "Supporter rate funding lower priced slots.",
+    "energySolidarityDesc": "Affordable option if you're on a budget.",
+    "learnMoreSolidarity": "Learn more",
+    "locationModalTitle": "Choose session type",
+    "locationHome": "at your home (+30 €)",
+    "locationVirtual": "virtual",
+    "locationStudio": "at my location",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "next": "Next",
+    "noCredits": {
+      "info": "Currently no solidarity credits are available.",
+      "infoLink": "What does that mean?",
+      "supporterCta": "Consider buying a supporter session ❤️ to unlock a solidarity credit for someone else.",
+      "contact": {
+        "prefix": "Really need the discounted price?",
+        "link": "Reach out to me directly",
+        "suffix": "to find a solution."
+      }
+    },
+    "privacyAgreement": {
+      "title": "Privacy Agreement",
+      "warning": "We use Cal.com and Stripe for booking.",
+      "prefix": "I have read and accept the ",
+      "linkText": "privacy policy",
+      "suffix": "."
+    },
+    "eligibilityModal": {
+      "title": "Solidarity price",
+      "hint": {
+        "prefix": "This is a sponsored price and only available to eligible people. If you don't know what that means, check out the ",
+        "linkText": "solidarity page",
+        "suffix": "."
+      },
+      "checkbox": "I honestly confirm that I am eligible for the solidarity price"
+    },
+    "faqHook": {
+      "text": "Have more questions?",
+      "linkText": "Visit the FAQ",
+      "moreLinks": {
+        "yoga": "Learn more about yoga sessions",
+        "energy": "Learn more about energy work"
+      }
+    }
+  },
+  "impressum": {
+    "title": "Impressum",
+    "providerLabel": "Provider",
+    "contactLabel": "Contact",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "websiteLabel": "Website",
+    "ustLabel": "VAT",
+    "ustValue": "Small business owner according to § 19 UStG; no VAT is charged.",
+    "dlinfoLabel": "DL-InfoV (Service Information)",
+    "dlinfoText": "Activity: Yoga training and energy balancing (non-medical).",
+    "adrLabel": "Consumer Dispute Resolution (§§ 36/37 VSBG)",
+    "adrText": "We are not willing or obligated to participate in dispute resolution proceedings before a consumer arbitration board.",
+    "disclaimerLabel": "Notice",
+    "disclaimerText": "The services offered are not medical treatments and do not replace treatment by physicians/alternative practitioners; no healing promises are made."
+  },
+  "privacy": {
+    "title": "Privacy",
+    "responsibleHeading": "Responsible entity",
+    "responsibleText": "{{NAME}}\n{{ADDRESS}}\nEmail: {{EMAIL}} · Tel.: {{PHONE}}",
+    "hostingHeading": "Hosting & Server Logs",
+    "hostingText": "Details coming soon.",
+    "contactHeading": "Contact",
+    "contactText": "Details coming soon.",
+    "bookingHeading": "Booking via Cal.com",
+    "bookingText": "Details coming soon.",
+    "paymentHeading": "Payment via Stripe",
+    "paymentText": "Details coming soon.",
+    "billingHeading": "Billing & retention",
+    "billingText": "Details coming soon.",
+    "testimonialsHeading": "Testimonials",
+    "testimonialsText": "Details coming soon.",
+    "cookiesHeading": "Cookies & external content",
+    "cookiesText": "Details coming soon.",
+    "newsletterHeading": "Newsletter",
+    "newsletterText": "Provider: {{NEWSLETTER_PROVIDER}}. Details coming soon.",
+    "legalHeading": "Legal bases, recipients, retention, third-country transfers",
+    "legalText": "Details coming soon.",
+    "rightsHeading": "Your rights",
+    "rightsText": "Details coming soon.",
+    "dpoHeading": "Data protection officer",
+    "dpoText": "No data protection officer appointed."
+  },
+  "legal": {
+    "impressum": "Impressum",
+    "privacy": "Privacy"
+  },
+  "thank": {
+    "title": "Thank you!",
+    "li1": "Check your inbox for the calendar invite.",
+    "li2": "Reschedule anytime via the link in your email.",
+    "li3": "Reach out if you have any questions."
+  },
+  "socialProof": {
+    "rating": "{rating}/5 ({count} reviews)",
+    "membership": "Member of Eden Energy Medicine",
+    "climate": "Stripe Climate",
+    "solidaritySlotSingle": "1 solidarity slot free",
+    "solidaritySlotPlural": "solidarity slots free",
+    "solidarityLink": "What does this mean?"
+  },
+  "serviceTeasers": {
+    "energyTitle": "Energy Balancing",
+    "energyBlurb": "Balance your system",
+    "yogaTitle": "Yoga Asana Private",
+    "yogaBlurb": "1:1 guidance",
+    "energySubtitle": "Energy Balancing",
+    "yogaSubtitle": "Yoga",
+    "pricePrefix": "from ",
+    "cta": "Book a session",
+    "learnMore": "Want to learn more?",
+    "solidarityLine": "Every Supporter session unlocks 1 low-cost Solidarity slot."
+  },
+  "testimonial": {
+    "quote": "Working with Julia changed how I feel in my body. I have more energy and clarity.",
+    "name": "Happy Client",
+    "link": "More stories"
+  },
+  "aboutTeaser": {
+    "text": "After years of exploring movement and energy work, I created Moving Relaxation to share energy balancing with others.",
+    "link": "My journey ›"
+  },
+  "yoga": {
+    "seo": {
+      "title": "Yoga – Moving Relaxation",
+      "description": "Holistic yoga practice blending yin, flow, nidra and pranayama – in private coaching or small groups."
+    },
+    "hero": {
+      "heading": "Yoga – Conscious movement, deep breathing, quiet presence",
+      "text": "My yoga practice combines gentle relaxation, powerful flow, and mindful breath guidance into a holistic experience that harmonizes body and mind.",
+      "cta": "Book a session"
+    },
+    "intro": {
+      "heading": "Tangible results",
+      "text": "Your benefits:",
+      "benefit1": {
+        "title": "Fascial openness",
+        "text": "Noticeably more mobility and lightness in hips, shoulders, and back."
+      },
+      "benefit2": {
+        "title": "Core strength & stability",
+        "text": "Flows fortify torso and joints – daily postures become easier."
+      },
+      "benefit3": {
+        "title": "Nervous system reset",
+        "text": "Breath and Yoga Nidra activate the parasympathetic; stress melts away and sleep improves."
+      },
+      "benefit4": {
+        "title": "Breath capacity",
+        "text": "Greater lung volume, steady rhythm, more endurance for physical or mental tasks."
+      },
+      "benefit5": {
+        "title": "Mental calm",
+        "text": "Mindful movement builds focus; thoughts settle and clarity emerges."
+      }
+    },
+    "approach": {
+      "heading": "What to expect",
+      "item1": {
+        "title": "Yin Yoga / Gravity Yoga",
+        "text": "Long, passive poses lengthen fascia and joints in the pull of gravity. You sink deep into the tissues – blockages dissolve, flexibility increases, and the mind becomes quiet."
+      },
+      "item2": {
+        "title": "Hatha & Slow-Flow Vinyasa",
+        "text": "Clearly structured asanas meet fluid transitions. Every movement follows the breath, strengthening muscles and stability while meditative sequences turn your focus inward."
+      },
+      "item3": {
+        "title": "Yoga Nidra",
+        "text": "Guided “yogic sleep” in savasana. You journey consciously through body layers; brainwaves drift into alpha/theta – deep restoration for nervous system and psyche."
+      },
+      "item4": {
+        "title": "Pranayama",
+        "text": "From gentle Ujjayi whispers to calming Nadi Shodhana – targeted breath techniques regulate energy, heart rate, and mental clarity."
+      }
+    },
+    "offer": {
+      "heading": "Your options",
+      "subheading": "Choose how you want to practice.",
+      "learnMore": "Learn more",
+      "item1": {
+        "title": "Private coaching (studio or online)",
+        "text": "One-on-one support with body and flexibility analysis, tailored sequences, and a personal home practice plan."
+      },
+      "item2": {
+        "title": "Regular group training",
+        "text": "Yin & Nidra – Monday evenings, the perfect unwind after work.\n\nMorning Slow-Flow – Thursday 7 am, jump-starts circulation and focus for the day.\n\nSmall groups (max. 8 participants) ensure personal adjustments and a familiar atmosphere."
+      }
+    },
+    "testimonials": {
+      "heading": "What students say",
+      "t1": {
+        "quote": "The classes give me clarity and strength.",
+        "name": "Anna"
+      },
+      "t2": {
+        "quote": "I finally found a practice that fits me.",
+        "name": "Mark"
+      }
+    },
+    "cta": {
+      "heading": "Bring breath and body into harmony",
+      "text": "Sign up for private coaching or book your next group class – and experience yoga that truly meets you.",
+      "button": "Book now",
+      "moreHeading": "Curious about energy work?",
+      "moreText": "Energy balancing realigns your energetic flows.",
+      "moreButton": "Explore energy work"
+    },
+    "faqHook": {
+      "text": "Have more questions?",
+      "linkText": "Visit the FAQ"
+    }
+  },
+  "footer": {
+    "tagline": "Personal yoga and energy balancing.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal"
+  },
+  "energyWork": {
+    "seo": {
+      "title": "Energy Balancing – Moving Relaxation",
+      "description": "Energy balancing gets blocked currents flowing and activates your self-healing."
+    },
+    "hero": {
+      "heading": "Energy Balancing – Let your energy flow",
+      "text": "Energy work addresses the finely woven network of meridians, chakras, auric layers, and bioelectric fields that enliven your body and mind. Through targeted touch, holds, rhythmic tapping, conscious breathing, and gently flowing movements, blocked currents are plugged back in, strengthened, and harmonized. When useful, tuning fork vibrations sweep through tissue and biofield to dissolve tension and re-order frequency patterns. In this way, your system activates its natural self-healing abilities, stress levels drop, vitality rises—and you arrive in a state of deep presence.",
+      "cta": "Book your session"
+    },
+      "intro": {
+        "heading": "What you'll feel",
+        "text": "How it shows up in daily life:",
+        "benefit1": {
+          "title": "Deep relaxation",
+        "text": "Your nervous system shifts into repair mode while muscles and mind let go. Breath and heartbeat slow as stress hormones drop. You feel safe, held, and deeply at ease."
+        },
+        "benefit2": {
+          "title": "New vitality",
+        "text": "A fresh surge of energy replaces fatigue—stamina, creativity, and focus noticeably increase. Meridians open so qi can circulate more freely. Everyday tasks feel lighter and more empowered."
+        },
+        "benefit3": {
+          "title": "Emotional balance",
+        "text": "Old emotions dissolve, giving way to ease and heart coherence. Instead of inner turbulence, you experience steadier emotional ground. Relationships and decisions unfold with more calm."
+        },
+        "benefit4": {
+          "title": "Inner clarity",
+        "text": "Thoughts settle, decisions come easier, and you feel present in the here and now. Mental static fades and inner space opens. You perceive yourself and your surroundings with greater awareness."
+        },
+        "benefit5": {
+          "title": "Vibrational vitality",
+        "text": "Tuning fork resonance gently awakens stagnant qi and leaves your body humming. Frequencies harmonize organs and fascia like retuning an instrument. The subtle buzz often lingers long after the session."
+      },
+      "benefit6": {
+        "title": "Resonant spaciousness",
+        "text": "A sense of spaciousness spreads through your body—chest, shoulders, and hips 'open' as breath flows more freely. The tone creates room where tightness once lived. You feel more expansive and connected."
+      },
+      "benefit7": {
+        "title": "Somatic release",
+        "text": "Micro-vibrations loosen fascial tissue; tension or pressure often melts away during the session. Adhesions in muscles and fascia gently unwind. Your body feels more mobile and light."
+      }
+    },
+    "approach": {
+      "heading": "How I work",
+      "item1": {
+        "title": "Gentle holds and tapping techniques",
+        "text": "that align energy flows and restore balance."
+      },
+      "item2": {
+        "title": "Meridian stretches and targeted movements",
+        "text": "that promote flow and enliven your tissues."
+      },
+      "item3": {
+        "title": "Breath and mindfulness cues",
+        "text": "that synchronize body, mind, and energy."
+      },
+      "item4": {
+        "title": "Individual chakra tuning",
+        "text": "to transform deep patterns and unleash creative forces."
+      },
+      "item5": {
+        "title": "Tuning fork resonance",
+        "text": "precisely tuned forks bring your biofield back into coherence."
+      },
+      "note1": "The techniques are tried and tested—gentle yet profound. You can apply them yourself after the session to keep your balance in daily life.",
+      "note2": "Every setting concludes with easy-to-do mini exercises so you can deepen the new balance on your own."
+    },
+    "offer": {
+      "heading": "Offerings",
+      "subheading": "Choose the setting that suits your needs.",
+      "learnMore": "Learn more",
+      "item1": {
+        "title": "Individual session (in person or online)",
+        "text": "Tailored analysis and balancing program for your current concern."
+      },
+      "item2": {
+        "title": "Remote session",
+        "text": "Precise energetic alignment without leaving your space."
+      },
+      "item3": {
+        "title": "Tuning fork sound therapy",
+        "text": "Vibration-based session that realigns tissues and frequencies through resonance."
+      },
+      "item4": {
+        "title": "Chakra focus",
+        "text": "Targeted work on key centers when a theme needs extra attention."
+      }
+    },
+    "testimonials": {
+      "heading": "Client experiences",
+      "t1": {
+        "quote": "I felt lighter and more centered.",
+        "name": "Lisa"
+      },
+      "t2": {
+        "quote": "The session brought unexpected calm.",
+        "name": "Jon"
+      }
+    },
+    "cta": {
+      "heading": "Your path to more energy begins here.",
+      "text": "Book your appointment and experience relaxed presence, vibrant power, and inner clarity that transforms your day.",
+      "button": "Book your session",
+      "moreHeading": "Curious about yoga?",
+      "moreText": "Yoga coaching brings breath and body into harmony.",
+      "moreButton": "Explore yoga"
+    },
+    "faqHook": {
+      "text": "Have more questions?",
+      "linkText": "Visit the FAQ"
+    }
+  },
+  "dashboard": {
+    "links": {
+      "referrals": "Referrals",
+      "events": "Events",
+      "products": "Products",
+      "testimonials": "Testimonials"
+    },
+    "menu": {
+      "profile": "Profile",
+      "settings": "Settings",
+      "billing": "Billing",
+      "signOut": "Sign out"
+    },
+    "profile": {
+      "admin": "Admin",
+      "adept": "Adept"
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "filters": {
+        "name": "Search name...",
+        "rating": "All ratings",
+        "status": "All statuses"
+      },
+      "fields": {
+        "name": "Name",
+        "rating": "Rating",
+        "text": "Text",
+        "category": "Category",
+        "anonymous": "Anonymous",
+        "featured": "Featured",
+      "verified": "Verified",
+      "unverified": "Unverified",
+      "verify": "Verify",
+      "yes": "Yes",
+      "no": "No",
+      "edit": "Edit",
+      "delete": "Delete"
+      },
+      "noData": "No testimonials found.",
+      "pagination": {
+        "prev": "Previous",
+        "next": "Next"
+      },
+      "modal": {
+        "title": "Edit testimonial",
+        "textEn": "Text (English)",
+        "textDe": "Text (German)",
+        "save": "Save",
+        "cancel": "Cancel"
+      },
+      "avatar": {
+        "view": "View avatar",
+        "remove": "Remove avatar",
+        "close": "Close",
+        "confirm": {
+          "title": "Remove avatar",
+          "body": "This action cannot be undone.",
+          "confirm": "Remove",
+          "cancel": "Cancel"
+        }
+      }
+    },
+    "referrals": {
+      "title": "Referral Program",
+      "intro": "Invite friends and earn rewards. You get 5% per booked session by your referrals. Once you reach 50%, you receive a coupon for 50% off your next single session.",
+      "generate": "Generate referral link",
+      "linkLabel": "Your referral link",
+      "codeLabel": "Your referral code",
+      "copyLink": "Copy link",
+      "copyCode": "Copy code",
+      "notVerified": "You need at least one booked session to access referrals.",
+      "loading": "Loading...",
+      "stats": {
+        "registered": "People registered",
+        "booked": "Sessions booked",
+        "reduction": "Current reduction"
+      },
+      "admin": {
+        "title": "Referral Statistics",
+        "columns": {
+          "name": "Name",
+          "email": "Email",
+          "code": "Referral Code",
+          "verified": "Verified",
+          "referrer": "Referrer",
+          "invited": "Invited Members",
+          "booked": "Sessions Booked",
+          "cheap": "Cheaper Sessions",
+          "reduction": "Reduction"
+        },
+        "verify": "Verify",
+        "verified": "Verified",
+        "setReferrer": "Set referrer",
+        "search": "Search..."
+      }
+    },
+    "profilePage": {
+      "profile": {
+        "heading": "Profile",
+        "description": "This information will be displayed publicly so be careful what you share.",
+        "fields": {
+          "website": {
+            "label": "Website",
+            "placeholder": "www.example.com"
+          },
+          "about": {
+            "label": "About",
+            "placeholder": "you@example.com",
+            "helper": "Brief description for your profile. URLs are hyperlinked."
+          },
+          "photo": {
+            "label": "Photo",
+            "change": "Change"
+          },
+          "cover": {
+            "label": "Cover photo",
+            "upload": "Upload a file",
+            "orDrag": "or drag and drop",
+            "hint": "PNG, JPG, GIF up to 10MB"
+          }
+        },
+        "save": "Save"
+      },
+      "personal": {
+        "heading": "Personal Information",
+        "description": "Use a permanent address where you can receive mail.",
+        "toast": {
+          "title": "Complete your information",
+          "description": "Please provide the required details so we can manage billing, giveaways, and more."
+        },
+        "fields": {
+          "firstName": "First name",
+          "lastName": "Last name",
+          "email": "Email address",
+          "phone": "Phone",
+          "country": {
+            "label": "Country / Region",
+            "placeholder": "Select option",
+            "options": {
+              "de": "Germany",
+              "at": "Austria",
+              "ch": "Switzerland",
+              "nl": "Netherlands",
+              "be": "Belgium",
+              "us": "United States",
+              "ca": "Canada",
+              "mx": "Mexico"
+            }
+          },
+          "street": "Street address",
+          "city": "City",
+          "state": "State / Province",
+          "postal": "ZIP / Postal"
+        },
+        "save": "Save"
+      },
+      "notifications": {
+        "heading": "Notifications",
+        "description": "Decide which communications you'd like to receive and how.",
+        "byEmail": "By Email",
+        "items": {
+          "comments": {
+            "label": "Comments",
+            "description": "Get notified when someones posts a comment on a posting."
+          },
+          "candidates": {
+            "label": "Candidates",
+            "description": "Get notified when a candidate applies for a job."
+          },
+          "offers": {
+            "label": "Offers",
+            "description": "Get notified when a candidate accepts or rejects an offer."
+          }
+        },
+        "push": {
+          "heading": "Push Notifications",
+          "description": "These are delivered via SMS to your mobile phone.",
+          "options": {
+            "everything": "Everything",
+            "sameAsEmail": "Same as email",
+            "noPush": "No push notifications"
+          }
+        },
+        "save": "Save"
+      }
+    },
+    "events": {
+      "title": "Events",
+      "add": "Add event",
+      "fields": {
+        "title": "Title",
+        "topic": "Topic",
+        "date": "Start date",
+        "category": "Category",
+        "mode": "Mode",
+        "slug": "Slug",
+        "description": "Description"
+      },
+      "filters": {
+        "category": "Filter by category",
+        "all": "All"
+      },
+      "save": "Save",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "selectAll": "Select all",
+      "deselectAll": "Deselect all",
+      "deleteSelected": "Delete selected",
+      "repeat": {
+        "label": "Repeat weekly",
+        "repeatCount": "Repetitions",
+        "endDate": "End date"
+      },
+      "weekdays": {
+        "sunday": "Sunday",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday"
+      }
+    }
+  },
+  "adminProducts": {
+    "title": "Products",
+    "unauthorized": "Unauthorized",
+    "save": "Save",
+    "columns": {
+      "product": "Product",
+      "basePrice": "Base price"
+    },
+    "types": {
+      "yoga": "Yoga",
+      "energy": "Energy"
+    },
+    "names": {
+      "single": "Single session",
+      "fivePack": "Five-pack",
+      "group": "Group session",
+      "groupFive": "Group 5-pack",
+      "supporter": "Supporter session",
+      "solidarity": "Solidarity session"
+    }
+  }
+}

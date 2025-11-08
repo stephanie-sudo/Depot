@@ -1,0 +1,17 @@
+# .github/workflows/dev-deploy.yml  (im Branch: dev)
+name: deploy-dev
+
+on:
+  push:
+    branches: [ "dev" ]      # nur dev
+  pull_request:
+    branches: [ "dev" ]
+  # optional: manuell starten (siehe Hinweis weiter unten)
+  # workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: [self-hosted]
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker compose up -d --build
