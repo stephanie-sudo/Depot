@@ -10,17 +10,17 @@ export default function SessionsPage() {
 
   const sessionTiers = [
     {
-      title: 'Standard Session',
+      title: t('singleTitle'),
       price: '€60',
-      description: 'Individual session tailored to your needs',
-      features: ['60 minutes', 'One-on-one session', 'Flexible scheduling'],
+      description: t('yogaLessonDesc') || t('energyStandardDesc') || t('description'),
+      features: [t('singleFeature1'), t('singleFeature2')],
       link: '/contact',
     },
     {
-      title: 'Package (5 Sessions)',
+      title: t('balance5Title') || t('standard5Title') || t('balance5Title'),
       price: '€275',
-      description: 'Save €25 with a session package',
-      features: ['Save €25', '60 minutes each', 'Valid for 3 months'],
+      description: t('balance5Feature1') || t('balance5Feature2'),
+      features: [t('balance5Feature1'), t('balance5Feature2')],
       link: '/contact',
       highlight: true,
     },
@@ -33,21 +33,18 @@ export default function SessionsPage() {
   return (
     <>
       <Head>
-        <title>Sessions & Pricing | Steffi</title>
-        <meta
-          name="description"
-          content="Book a session with Steffi - flexible pricing options available"
-        />
+        <title>{t('title')} | Steffi</title>
+        <meta name="description" content={t('description')} />
       </Head>
       <Box as="main" minH="70vh">
         <Container maxW="container.xl" py={16}>
           <VStack spacing={12} align="stretch">
             <VStack spacing={4} textAlign="center">
               <Heading as="h1" size="2xl" color="textDefault">
-                Sessions & Pricing
+                {t('title')}
               </Heading>
               <Text fontSize="lg" color="textSecondary" maxW="2xl" mx="auto">
-                Choose the option that works best for you. All sessions are conducted with care and attention.
+                {t('description')}
               </Text>
             </VStack>
 
@@ -57,14 +54,14 @@ export default function SessionsPage() {
                   key={tier.title}
                   pkg={tier}
                   onBook={handleBook}
-                  bookLabel="Contact"
+                  bookLabel={t('book')}
                 />
               ))}
             </SimpleGrid>
 
             <VStack spacing={4} pt={8} textAlign="center">
               <Text color="textSecondary">
-                For bookings or questions, please get in touch via the contact page.
+                {t('pricingTitle')}
               </Text>
             </VStack>
           </VStack>
