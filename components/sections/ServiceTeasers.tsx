@@ -77,7 +77,7 @@ export default function ServiceTeasers() {
                 <Text mb={2} color="textSecondary">{s.blurb}</Text>
                 <Text fontWeight="bold" mb={4}>{s.price}</Text>
                 <Stack spacing={2}>
-                  <ButtonLink as={NextLink} href={`/sessions${s.anchor}`} w="full">
+                  <ButtonLink as={NextLink} href={`/prices${s.anchor}`} w="full">
                     {t('cta')}
                   </ButtonLink>
                   <ButtonLink

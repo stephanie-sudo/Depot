@@ -44,12 +44,12 @@ export default function HeroSection() {
             </chakra.p>
 
             <Stack mt={{ base: 5, sm: 8 }} direction={{ base: 'column', sm: 'row' }} spacing={4}>
-              <ButtonLink as={NextLink} href="/sessions" w={{ base: 'full', sm: 'auto' }}>
+              <ButtonLink as={NextLink} href="/prices" w={{ base: 'full', sm: 'auto' }}>
                 {t('cta')}
               </ButtonLink>
               <ButtonLink
                 as={NextLink}
-                href="/sessions?discovery=1"
+                href="/prices?discovery=1"
                 variant="secondary"
                 w={{ base: 'full', sm: 'auto' }}
                 whiteSpace="normal"

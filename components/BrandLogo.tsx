@@ -12,10 +12,10 @@ export default function BrandLogo({ onClick }: BrandLogoProps) {
   return (
     <Link href="/" className="inline-flex items-center" onClick={onClick}>
       {/* accessible name for screen readers */}
-      <span className="sr-only">Moving Relaxation</span>
+      <span className="sr-only">Movit</span>
       <AiImage
         src="/logo_header.png"
-        alt="Moving Relaxation logo"
+        alt="Movit logo"
         h="42px"
         w="auto"
         className="mr-2"

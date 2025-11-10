@@ -5,7 +5,7 @@ export const config = { runtime: 'edge' };
 const staticPages = [
   '/',
   '/about',
-  '/sessions',
+  '/prices',
   '/faq',
   '/stories',
   '/contact',

@@ -20,8 +20,8 @@ export default function Footer() {
           <div className="space-y-4">
             <p className="flex items-center">
               <Link href="/" className="flex items-center">
-                <span className="sr-only">Moving Relaxation</span>
-                <AiImage src="/logo_header.png" alt="Moving Relaxation logo" h="42px" w="auto" className="mr-2" />
+                <span className="sr-only">Movit</span>
+                <AiImage src="/logo_header.png" alt="Movit logo" h="42px" w="auto" className="mr-2" />
               </Link>
             </p>
             <p className="text-gray-400">{tFooter('tagline')}</p>
@@ -51,7 +51,14 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><Link href="/" className="text-gray-400 hover:text-white transition">{tNav('home')}</Link></li>
               <li><Link href="/about" className="text-gray-400 hover:text-white transition">{tNav('about')}</Link></li>
-              <li><Link href="/sessions" className="text-gray-400 hover:text-white transition">{tNav('sessions')}</Link></li>
+              <li>
+                <Link href="/prices" className="text-gray-400 hover:text-white transition">
+                  {(() => {
+                    const v = tNav('prices');
+                    return v === 'prices' ? tNav('sessions') : v;
+                  })()}
+                </Link>
+              </li>
               <li><Link href="/yoga" className="text-gray-400 hover:text-white transition">{tNav('yoga')}</Link></li>
               <li><Link href="/energy-work" className="text-gray-400 hover:text-white transition">{tNav('energyWork')}</Link></li>
               <li><Link href="/faq" className="text-gray-400 hover:text-white transition">{tNav('faq')}</Link></li>

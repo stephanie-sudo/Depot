@@ -32,7 +32,7 @@ export default function YogaPage() {
         heading: t('hero.heading'),
         text: t('hero.text'),
         cta: t('hero.cta'),
-        href: '/sessions#yoga',
+  href: '/prices#yoga',
       }}
       intro={{ heading: t('intro.heading'), text: t('intro.text'), benefits }}
       approach={{ heading: t('approach.heading'), items: approachItems }}
@@ -46,7 +46,7 @@ export default function YogaPage() {
         heading: t('cta.heading'),
         text: t('cta.text'),
         button: t('cta.button'),
-        href: '/sessions#yoga',
+  href: '/prices#yoga',
         moreHeading: t('cta.moreHeading'),
         moreText: t('cta.moreText'),
         moreButton: t('cta.moreButton'),

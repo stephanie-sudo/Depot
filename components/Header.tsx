@@ -38,11 +38,14 @@ export default function Header() {
         {t('home')}
       </Link>
       <Link
-        href="/sessions"
+        href="/prices"
         className="px-2 py-1 transition-all duration-200 rounded hover:text-gray-700 dark:hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
         onClick={() => setOpen(false)}
       >
-        {t('sessions')}
+        {(() => {
+          const val = t('prices');
+          return val === 'prices' ? t('sessions') : val;
+        })()}
       </Link>
       <Link
         href="/yoga"
@@ -92,12 +95,12 @@ export default function Header() {
     >
       <div className="px-4 mx-auto sm:px-6 lg:px-8 xl:px-12">
         <div className="flex items-center justify-between h-16 lg:h-[72px]">
-          <div className="flex items-center flex-shrink-0">
-            <BrandLogo onClick={() => setOpen(false)} />
+      <div className="flex items-center flex-shrink-0">
+        <BrandLogo onClick={() => setOpen(false)} />
           </div>
 
-          <nav className="hidden lg:flex lg:justify-start lg:ml-16 lg:space-x-8 xl:space-x-14 text-base font-medium text-gray-100 dark:text-gray-100">
-            {links}
+      <nav className="hidden lg:flex lg:justify-start lg:ml-16 lg:space-x-8 xl:space-x-14 text-base font-medium text-gray-100 dark:text-gray-100">
+        {links}
           </nav>
 
           <div className="flex items-center justify-end ml-auto">

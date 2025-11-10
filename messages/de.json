@@ -8,7 +8,7 @@
   },
   "nav": {
     "home": "Start",
-    "sessions": "Sitzungen",
+    "sessions": "Preise",
     "yoga": "Yoga",
     "energyWork": "Energiearbeit",
     "about": "Über mich",
@@ -152,7 +152,7 @@
     "submittedOn": "Eingereicht am"
   },
   "faq": {
-    "seoTitle": "FAQ – Moving Relaxation",
+    "seoTitle": "FAQ – Movit",
     "seoDescription": "Häufig gestellte Fragen zu unseren Sitzungen und zur Buchung.",
     "title": "Häufig gestellte Fragen",
     "description": "Antworten auf häufige Fragen zu Sitzungen und Buchung.",
@@ -257,8 +257,8 @@
     }
   },
   "sessions": {
-    "title": "Sitzungen",
-    "description": "Entdecke persönliches Yoga Coaching und energetische Balance.",
+    "title": "Preise",
+    "description": "Wähle die Option, die am besten zu dir passt. Alle Sitzungen werden mit Sorgfalt durchgeführt.",
     "standardLabel": "Standard 60 Min",
     "book": "Jetzt buchen",
     "pricingTitle": "Einfache, transparente Preise",
@@ -415,12 +415,12 @@
     "link": "Mehr Erfahrungsberichte"
   },
   "aboutTeaser": {
-    "text": "Nach Jahren der Bewegung und Energiearbeit habe ich Moving Relaxation gegründet, um energetische Balance zu teilen.",
+    "text": "Nach Jahren der Bewegung und Energiearbeit habe ich Movit gegründet, um energetische Balance zu teilen.",
     "link": "Mein Weg ›"
   },
   "yoga": {
     "seo": {
-      "title": "Yoga – Moving Relaxation",
+      "title": "Yoga – Movit",
       "description": "Ganzheitliche Yogapraxis mit Yin, Flow, Nidra und Pranayama – im Privatcoaching oder in kleinen Gruppen."
     },
     "hero": {
@@ -515,7 +515,7 @@
   },
   "energyWork": {
     "seo": {
-      "title": "Energetisches Balancing – Moving Relaxation",
+      "title": "Energetisches Balancing – Movit",
       "description": "Energetisches Balancing bringt blockierte Ströme zum Fließen und stärkt deine Selbstheilungskräfte."
     },
     "hero": {

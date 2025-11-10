@@ -19,7 +19,7 @@ export default function CallToActionSection() {
         </Text>
         <Button
           as={Link}
-          href="/sessions"
+          href="/prices"
           variant="cardCta"
           size="lg"
         >
