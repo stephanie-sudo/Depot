@@ -64,17 +64,11 @@ export default function ServiceTeasers() {
               _hover={{
                 transform: 'scale(1.02)',
                 boxShadow: 'serviceHover',
-                borderColor: 'accent.500',
+                borderColor: 'accent',
               }}
             >
               <CardHeader>
-                <Text
-                  color="teal.600"
-                  fontSize="xs"
-                  textTransform="uppercase"
-                  letterSpacing="wider"
-                  mb={1}
-                >
+                <Text color="primary" fontSize="xs" textTransform="uppercase" letterSpacing="wider" mb={1}>
                   {s.subtitle}
                 </Text>
                 <Heading size="md">{s.title}</Heading>

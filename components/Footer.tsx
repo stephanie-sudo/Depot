@@ -20,13 +20,8 @@ export default function Footer() {
           <div className="space-y-4">
             <p className="flex items-center">
               <Link href="/" className="flex items-center">
-                <AiImage src="/logo_small.png" alt="Moving Relaxation logo" width={32} height={32} className="mx-1 h-8 w-8" />
-                <span
-                  className="the-nautigal-bold text-xl underline underline-offset-4"
-                  style={{ textDecorationColor: theme.colors.accent[500] }}
-                >
-                  Moving Relaxation
-                </span>
+                <span className="sr-only">Moving Relaxation</span>
+                <AiImage src="/logo_header.png" alt="Moving Relaxation logo" h="42px" w="auto" className="mr-2" />
               </Link>
             </p>
             <p className="text-gray-400">{tFooter('tagline')}</p>

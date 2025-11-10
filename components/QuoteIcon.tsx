@@ -2,9 +2,9 @@ import React from 'react'
 import { Icon, IconProps, useColorModeValue } from '@chakra-ui/react'
 
 export default function QuoteIcon(props: IconProps) {
-  const circle = useColorModeValue('#E0E0D1', '#4A4A4A')      // tweak as you like
-  const primary = useColorModeValue('#2D3748', '#CBD5E0')      // gray.700 / gray.300
-  const secondary = useColorModeValue('#4A5568', '#A0AEC0')    // gray.600 / gray.400
+  const circle = useColorModeValue('tintPrimary', 'cardSectionBg')
+  const primary = useColorModeValue('textDefault', 'textDefault')
+  const secondary = useColorModeValue('textSecondary', 'textSecondary')
 
   return (
     <Icon viewBox="0 0 64 64" boxSize="200px" {...props}>

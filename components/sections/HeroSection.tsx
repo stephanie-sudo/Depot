@@ -15,7 +15,7 @@ import AiImage from '../AiImage'
 
 export default function HeroSection() {
   const t = useTranslations('hero')
-  const bg = useColorModeValue('gray.200', 'gray.800')
+  const bg = 'pageBg'
 
   return (
     <Box bg={bg} mt={{ base: 4, md: 8 }}>
@@ -28,8 +28,7 @@ export default function HeroSection() {
               letterSpacing="tight"
               lineHeight="short"
               fontWeight="extrabold"
-              color="gray.900"
-              _dark={{ color: 'white' }}
+              color="textDefault"
             >
               {t('tagline')}
             </chakra.h1>
@@ -38,8 +37,7 @@ export default function HeroSection() {
               mt={{ base: 3, sm: 5 }}
               fontSize={{ sm: 'lg', md: 'xl' }}
               maxW={{ sm: 'xl' }}
-              color="gray.600"
-              _dark={{ color: 'gray.300' }}
+              color="textSecondary"
             >
               {t('subline1')}<br/>
               {t('subline2')} 
@@ -62,7 +60,7 @@ export default function HeroSection() {
           </Flex>
 
           {/* Right: image with 2:3 ratio */}
-          <AspectRatio ratio={3 / 2} w="full" bg="gray.100">
+          <AspectRatio ratio={3 / 2} w="full" bg="cardBg">
             <AiImage
               //src="/hero.webp"
               src="/hero_squared.png"

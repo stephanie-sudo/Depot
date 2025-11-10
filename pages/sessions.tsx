@@ -43,10 +43,10 @@ export default function SessionsPage() {
         <Container maxW="container.xl" py={16}>
           <VStack spacing={12} align="stretch">
             <VStack spacing={4} textAlign="center">
-              <Heading as="h1" size="2xl">
+              <Heading as="h1" size="2xl" color="textDefault">
                 Sessions & Pricing
               </Heading>
-              <Text fontSize="lg" color="gray.600" maxW="2xl" mx="auto">
+              <Text fontSize="lg" color="textSecondary" maxW="2xl" mx="auto">
                 Choose the option that works best for you. All sessions are conducted with care and attention.
               </Text>
             </VStack>
@@ -63,7 +63,7 @@ export default function SessionsPage() {
             </SimpleGrid>
 
             <VStack spacing={4} pt={8} textAlign="center">
-              <Text color="gray.600">
+              <Text color="textSecondary">
                 For bookings or questions, please get in touch via the contact page.
               </Text>
             </VStack>

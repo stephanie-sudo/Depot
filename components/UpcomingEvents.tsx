@@ -23,8 +23,8 @@ export default function UpcomingEvents() {
   const t = useTranslations('upcomingEvents')
   const locale = useLocale()
   const isMobile = useBreakpointValue({ base: true, md: false })
-  const bg = useColorModeValue('gray.100', 'gray.700')
-  const borderColor = useColorModeValue('gray.200', 'gray.600')
+  const bg = 'sectionBg'
+  const borderColor = 'neutralBorder'
 
 
   type Event = {

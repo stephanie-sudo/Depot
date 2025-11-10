@@ -23,11 +23,11 @@ import {
 } from '../components/ServiceIcons';
 
 function FAQItem({ question, answer, icon }: { question: string; answer: ReactNode; icon: ReactNode }) {
-  const chevronColor = useColorModeValue('gray.700', 'white');
-  const iconBg = useColorModeValue('brand.100', 'brand.500');
-  const iconColor = useColorModeValue('brand.500', 'white');
+  const chevronColor = useColorModeValue('textDefault', 'contrastText');
+  const iconBg = useColorModeValue('tintPrimary', 'accent.300');
+  const iconColor = useColorModeValue('accent', 'contrastText');
   return (
-    <AccordionItem borderColor="gray.200" _dark={{ borderColor: 'gray.700' }}>
+  <AccordionItem borderColor="neutralBorder">
       <AccordionButton>
         <Box flex="1" textAlign="left">
           <Flex alignItems="center" minH={12}>
@@ -52,13 +52,7 @@ function FAQItem({ question, answer, icon }: { question: string; answer: ReactNo
               </Icon>
             </Flex>
             <Box ml={{ base: 2, md: 4 }}>
-              <chakra.dt
-                fontSize="lg"
-                fontWeight="medium"
-                lineHeight="6"
-                color="gray.900"
-                _dark={{ color: 'white' }}
-              >
+              <chakra.dt fontSize="lg" fontWeight="medium" lineHeight="6" color="textDefault">
                 {question}
               </chakra.dt>
             </Box>
@@ -67,7 +61,7 @@ function FAQItem({ question, answer, icon }: { question: string; answer: ReactNo
         <AccordionIcon color={chevronColor} />
       </AccordionButton>
       <AccordionPanel pb={4}>
-        <chakra.dd mt={2} color="gray.500" _dark={{ color: 'gray.300' }}>
+        <chakra.dd mt={2} color="textSecondary">
           {answer}
         </chakra.dd>
       </AccordionPanel>
@@ -84,8 +78,8 @@ function FAQCategory({
   headingIcon: ReactNode;
   items: { question: string; answer: ReactNode; icon: ReactNode }[];
 }) {
-  const bg = useColorModeValue('gray.50', 'gray.700');
-  const headingColor = useColorModeValue('gray.900', 'gray.100');
+  const bg = 'cardSectionBg';
+  const headingColor = 'textDefault';
   return (
     <Box bg={bg} p={{ base: 4, md: 6 }} rounded="md" mb={8}>
       <Flex align="center" mb={4}>
@@ -105,8 +99,8 @@ function FAQCategory({
 
 export default function FAQ() {
   const t = useTranslations('faq');
-  const textColor = useColorModeValue('gray.900', 'gray.100');
-  const headingIconColor = useColorModeValue('brand.500', 'brand.300');
+  const textColor = 'textDefault';
+  const headingIconColor = 'accent';
   const categories = [
     {
       key: 'general',
@@ -341,8 +335,7 @@ export default function FAQ() {
         <meta name="description" content={t('seoDescription')} />
       </Head>
       <Flex
-        bg="gray.200"
-        _dark={{ bg: 'gray.600' }}
+        bg="pageBg"
         p={20}
         w="auto"
         justifyContent="center"
@@ -350,8 +343,7 @@ export default function FAQ() {
       >
         <Box
           py={12}
-          bg="white"
-          _dark={{ bg: 'gray.900' }}
+          bg="cardBg"
           rounded="xl"
           shadow="base"
           w="100%"
@@ -368,14 +360,7 @@ export default function FAQ() {
               >
                 {t('title')}
               </chakra.h2>
-              <chakra.p
-                mt={4}
-                maxW="2xl"
-                fontSize="xl"
-                mx={{ lg: 'auto' }}
-                color="gray.500"
-                _dark={{ color: 'gray.300' }}
-              >
+              <chakra.p mt={4} maxW="2xl" fontSize="xl" mx={{ lg: 'auto' }} color="textSecondary">
                 {t('description')}
               </chakra.p>
             </Box>
@@ -390,12 +375,7 @@ export default function FAQ() {
                 />
               ))}
               <Box mt={6} textAlign="center">
-                <Text
-                  fontSize="lg"
-                  color="gray.600"
-                  _dark={{ color: 'gray.400' }}
-                  mb={2}
-                >
+                <Text fontSize="lg" color="textSecondary" mb={2}>
                   {t('more.text')}
                 </Text>
                 <Button as={NextLink} href="/contact" variant="cardCta">

@@ -5,8 +5,8 @@ import { useTranslations } from '../../lib/i18n'
 export default function CallToActionSection() {
   const t = useTranslations('about')
   const bg = useColorModeValue('primaryAlpha.400', 'primaryAlpha.800')
-  const color = useColorModeValue('gray.900', 'gray.50')
-  const textColor = useColorModeValue('gray.700', 'gray.300')
+  const color = useColorModeValue('textDefault', 'contrastText')
+  const textColor = 'textSecondary'
 
   return (
     <Box bg={bg} color={color} py={20}>
